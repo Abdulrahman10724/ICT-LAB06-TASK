@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    color: darkblue;
+    text-align: center;
+}
+
+#one,#two,#three{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    width: 20%;
+
+background-color: magenta;
+}
+#two{
+    width: 50%;
+    font-weight: bolder;
+    background-color: red;
+}
+#three{
+    width: 30%;
+background-color: rgb(7, 250, 7);
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>This is header</header>
+    <div class="container">
+        <div id="one">
+            Left content
+        </div>
+        <div id="two">
+            Center content
+        </div>
+        <div id="three">
+            Right content
+        </div>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>

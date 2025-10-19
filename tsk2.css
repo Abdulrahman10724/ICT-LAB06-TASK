@@ -1,0 +1,62 @@
+
+#overall {
+    background-color:rgb(252, 252, 154);
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 17px;
+}
+.line {
+    display: flex;
+
+    margin-bottom: 15px;
+}
+.line label {
+    margin-left: 12px;
+    width: 150px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.line .form {
+    width: 250px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line .option {
+    display: block;
+    margin-bottom: 5px;
+}
+.course-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.course-box label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#rand {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.comments {
+    margin-left: 10px;
+}
+.opt {
+    width: 550px;
+    height: 40px;
+    margin-right: 100px;
+}
+label {
+    margin-left: 50px;
+    margin-right: 50px;
+}

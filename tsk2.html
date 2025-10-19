@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tsk2.css">
+
+</head>
+
+<body>
+    <form >
+    <div id="overall">
+        <div class="line">
+            <label>Family name</label>
+            <input type="text" placeholder="Family name" class="form">
+        </div>
+
+        <div class="line">
+            <label>Other name</label>
+            <input type="text" placeholder="Other name" class="form">
+        </div>
+
+        <div class="line">
+            <label>Address</label>
+            <input type="text" placeholder="Address" class="form">
+        </div>
+
+        <div class="line">
+            <label>Suburb</label>
+            <select name="Suburb" class="form" required>
+                <option value="" disabled selected>vic</option>
+                <option value="1">Clifton</option>
+                <option value="2">Defense</option>
+                <option value="3">Gulshan</option>
+            </select>
+
+        </div>
+        <div class="line">
+            <label id="rand">Course Info</label>
+            <div class="course-box">
+                <label> <input type="checkbox" name="course" class="option">Engineering </label>
+                <label> <input type="checkbox" name="course" class="option">IT </label>
+                <label> <input type="checkbox" name="course" class="option">law</label>
+                <label> <input type="checkbox" name="course" class="option">Medicine </label>
+                <label> <input type="checkbox" name="course" class="option">Nursing </label>
+            </div>
+        </div>
+        <div class="line">
+            <label>Degree</label>
+            <div class="course-box">
+                <label> <input type="radio" name="Degree" class="option">Diploma </label>
+                <label> <input type="radio" name="Degree" class="option">Degree </label>
+                <label> <input type="radio" name="Degree" class="option">Honours </label>
+                <label> <input type="radio" name="Degree" class="option">Masters </label>
+                <label> <input type="radio" name="Degree" class="option">PHD     </label>
+
+            </div>
+        </div>
+        <div class="line">
+            <label id="comments">Comments</label>
+            <textarea class="opt" rows="3"></textarea>
+        </div>
+        <div style="text-align: center;">
+            <button type="submit" style="width: 200px; align-items: center; cursor: pointer;" class="btn"> Submit</button>
+            <button type="reset" style="width: 200px; cursor: pointer;" class="btn">Clear form</button>
+        </div>
+        <div class="line">
+        </div>
+    </div>
+</form>
+</body>
+
+</html>
